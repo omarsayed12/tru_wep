@@ -1,0 +1,45 @@
+    //start section wellcom-to-true-wep
+    .wellcom-to-true-wep {
+        background: center / cover no-repeat url("../images/slide.jpg");
+        min-height: 70vh;
+        @media screen and (max-width: 768.9px) {
+            text-align: center;
+        }
+        .wellcom-to-true-wep-content {
+            @media screen and (min-width: 767.9px) and (max-width: 991.9px) {
+                text-align: center;
+                padding: 0 15%;
+            }
+            @media screen and (min-width: 992px) {}
+            .wellcom-to-true-wep-content-heading {
+                color: $gray-color;
+                font-size: 48px;
+                line-height: 1.5;
+            }
+            .wellcom-to-true-wep-content-desc {
+                color: $gray-color;
+                padding: 15px 0;
+                line-height: 1.9;
+                letter-spacing: .7px;
+            }
+        }
+    }
+    
+    //end section wellcom-to-true-wep
+    // start section info-team
+    .info-team {
+        .info-team-content-desc {
+            color: $third-color;
+            font-size: 16px;
+        }
+        .check-icon {
+            width: 25px;
+        }
+        .someone-goes-here-item-link-heading {
+            color: $primary-color;
+            font-size: 15px;
+            margin-left: 3px;
+        }
+    }
+    
+    // end section info-team

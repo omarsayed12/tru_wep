@@ -1,0 +1,21 @@
+.btn-get-qute {
+    font-weight: 500;
+    font-size: 13px;
+    background-color: $secound-color;
+    color: $gray-color;
+    @media screen and (min-width: 768.9px) {
+        padding: 12px 22px;
+    }
+}
+
+.wellcom-to-true-wep {
+    .btn-get-qute {
+        font-size: 15px;
+        padding: 13px 30px;
+    }
+}
+
+.btn:hover,
+.btn:focus {
+    color: $gray-color;
+}

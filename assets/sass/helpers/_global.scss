@@ -1,0 +1,22 @@
+// start color
+.bg-gray {
+    background-color: $light-gray-color;
+}
+
+.dark-blue {
+    color: $primary-color
+}
+
+// start classes
+.heading {
+    font-weight: 700;
+    color: $primary-color;
+    padding-bottom: 15px;
+}
+
+.height-sec {
+    @media screen and (min-width: 991.9px) {
+        height: 40px;
+        background-color: #9CA2C6
+    }
+}

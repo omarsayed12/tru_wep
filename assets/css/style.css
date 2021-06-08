@@ -1,0 +1,124 @@
+.wellcom-to-true-wep {
+  background: center/cover no-repeat url("../images/slide.jpg");
+  min-height: 70vh;
+}
+@media screen and (max-width: 768.9px) {
+  .wellcom-to-true-wep {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 767.9px) and (max-width: 991.9px) {
+  .wellcom-to-true-wep .wellcom-to-true-wep-content {
+    text-align: center;
+    padding: 0 15%;
+  }
+}
+.wellcom-to-true-wep .wellcom-to-true-wep-content .wellcom-to-true-wep-content-heading {
+  color: #eee;
+  font-size: 48px;
+  line-height: 1.5;
+}
+.wellcom-to-true-wep .wellcom-to-true-wep-content .wellcom-to-true-wep-content-desc {
+  color: #eee;
+  padding: 15px 0;
+  line-height: 1.9;
+  letter-spacing: 0.7px;
+}
+
+.info-team .info-team-content-desc {
+  color: #545467;
+  font-size: 16px;
+}
+.info-team .check-icon {
+  width: 25px;
+}
+.info-team .someone-goes-here-item-link-heading {
+  color: #42415B;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+.bg-gray {
+  background-color: #e5e5fc;
+}
+
+.dark-blue {
+  color: #42415B;
+}
+
+.heading {
+  font-weight: 700;
+  color: #42415B;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 991.9px) {
+  .height-sec {
+    height: 40px;
+    background-color: #9CA2C6;
+  }
+}
+
+.nav-content {
+  padding: 10px 0;
+}
+.nav-content .nav-logo {
+  width: 150px;
+}
+.nav-content .nav-link {
+  font-weight: 500;
+  color: #545467;
+  font-size: 13px;
+}
+.nav-content .tel-icon {
+  object-fit: contain;
+  width: 12px;
+}
+
+.card-content {
+  padding: 20px 0;
+}
+
+.card-content-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #545467;
+}
+
+.card-content-contact {
+  padding: 10px 0;
+}
+
+.contact-style {
+  font-weight: 700;
+  font-size: 16px;
+  color: #DB8939;
+}
+.contact-style:hover, .contact-style:focus {
+  color: #DB8939;
+  text-decoration: none;
+}
+
+.btn-get-qute {
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #DB8939;
+  color: #eee;
+}
+@media screen and (min-width: 768.9px) {
+  .btn-get-qute {
+    padding: 12px 22px;
+  }
+}
+
+.wellcom-to-true-wep .btn-get-qute {
+  font-size: 15px;
+  padding: 13px 30px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #eee;
+}
+
+/*# sourceMappingURL=style.css.map */
